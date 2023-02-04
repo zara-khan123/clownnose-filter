@@ -3,6 +3,7 @@ noseY=0;
 
 function preload()
 {
+    clown_nose = loadImage('https://i.postimg.cc/JzGH4Qvy/114-1147898-clown-nose-png-clip-art-clown-nose-transparent.png');
 }
 
 function setup(){
@@ -19,9 +20,7 @@ function setup(){
 function draw()
 {
     image(video, 0, 0, 300, 300);
-    fill(255,0,0);
-    stroke(255,0,0);
-    circle(noseX, noseY, 20);
+image(clown_nose, noseX, noseY, 30, 30);
 }
 
 function take_snapshot()
